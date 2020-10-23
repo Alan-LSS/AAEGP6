@@ -325,7 +325,7 @@ def main():
             tc_y.append(j)
 
     p_x, p_y = [], []
-    for i in range(15, 23):
+    for i in range(13, 29):
         for j in range(6, 7):
             p_x.append(i)
             p_y.append(j)
