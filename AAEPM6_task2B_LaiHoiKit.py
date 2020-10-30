@@ -36,8 +36,8 @@ class AStarPlanner:
         self.C_C = 10
         self.Delta_F = 8
         self.Delta_T = 2
-        self.Delta_T_A = 1 # additional time 
-        self.Delta_F_A = 9 # additional fuel
+        self.Delta_T_A = 9 # additional time 
+        self.Delta_F_A = 1 # additional fuel
         
 
         self.costPerGrid = self.C_F * self.Delta_F + self.C_T * self.Delta_T + self.C_C
@@ -266,7 +266,7 @@ def main():
     sy = 0.0  # [m]
     gx = 50.0  # [m]
     gy = 50.0  # [m]
-    grid_size = 2  # [m]
+    grid_size = 1  # [m]
     robot_radius = 1.0  # [m]
 
     # set obstacle positions
