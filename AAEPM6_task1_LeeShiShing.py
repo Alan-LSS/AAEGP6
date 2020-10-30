@@ -52,8 +52,8 @@ class AStarPlanner:
         self.C_C = 10
         self.Delta_F = 1
         self.Delta_T = 5
-        self.Delta_T_A = 0.1 # additional time 
-        self.Delta_F_A = 0.1 # additional fuel
+        self.Delta_T_A = 0.2 # additional time 
+        self.Delta_F_A = 0.2 # additional fuel
         
 
         self.costPerGrid = self.C_F * self.Delta_F + self.C_T * self.Delta_T + self.C_C
