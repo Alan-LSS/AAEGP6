@@ -276,7 +276,7 @@ def main():
     sy = 0.0  # [m]
     gx = 50.0  # [m]
     gy = 50.0  # [m]
-    grid_size = 2  # [m]
+    grid_size = 1  # [m]
     robot_radius = 1.0  # [m]
 
     # set obstacle positions
